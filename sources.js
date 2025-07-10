@@ -8,11 +8,6 @@ const availableSources = [
         name: 'SmashyStream',
         isFrench: false,
         urls: {
-            movie: 'https://embed.smashystream.com/playere.php?tmdb={id}',
-            tv: 'https://embed.smashystream.com/playere.php?tmdb={id}&season={season}&episode={episode}'
-        }
-    },
-{
             movie: 'https://iframe.pstream.org/embed/tmdb-movie-{id}',
             tv: 'https://iframe.pstream.org/embed/tmdb-tv-{id}/{season}/{episode}'
         }
